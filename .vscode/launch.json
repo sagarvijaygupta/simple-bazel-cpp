@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Protocol Buffer",
+            "preLaunchTask": "Protocol Buffer (Debug)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bazel-out/darwin-dbg/bin/repeated_cc",
+            "args": ["--file_name=/Users/sagar/Desktop/Google/proj/abc.txt", 
+                "--first_name=Walden"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/bazel-out/darwin-dbg/bin/repeated_cc.runfiles/com_github_sagar_csvRW",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}

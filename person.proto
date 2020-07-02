@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package person_info; // Requried to generate valid code.
+
+message Person {
+  string first_name = 1;
+  string second_name = 2;
+  int32 age = 3;
+  string profession = 4;
+}
+
+message Directory {
+  repeated Person person = 5;
+}
